@@ -2,21 +2,24 @@
 
 ---
 
-## Operações da conta bancária
+## Operações da máquina de banhos
 
-* Consultar saldo;
-* Consultar cheque especial;
-* Depositar dinheiro;
-* Sacar dinheiro;
-* Pagar um boleto;
-* Verificar se a conta está usando cheque especial.
+* Dar banho no pet;
+* Abastecer com água;
+* Abastecer com shampoo;
+* Verificar nível de água;
+* Verificar nível de shampoo;
+* Verificar se tem pet no banho;
+* Colocar pet na maquina;
+* Retirar pet da máquina;
+* Limpar maquina.
 
 ---
 
 ## Regras do programa
 
-* A conta bancária tem um limite de cheque especial somado ao saldo da conta;
-* O valor do cheque especial é definido no momento da criação da conta, de acordo com o valor depositado na conta em sua criação;
-* Se o valor depositado na criação da conta for de R\$500,00 ou menos o cheque especial é de R\$50,00;
-* Para valores acima de R\$500,00 o cheque especial é de 50% do valor depositado;
-* Caso o limite de cheque especial seja usado, assim que possível a conta cobra uma taxa de 20% do valor usado do cheque especial.
+* A máquina de banho permite apenas 1 pet por vez;
+* Cada banho realizado consome 10 litros de água e 2 litros de shampoo;
+* A máquina tem capacidade máxima de 30 litros de água e 10 litros de shampoo;
+* Se o pet for retirado da maquina sem estar limpo será necessário limpar a máquina para permitir a entrada de outro pet;
+* A limpeza da máquina consome 3 litros de água e 1 litro de shampoo.
